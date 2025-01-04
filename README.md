@@ -634,7 +634,7 @@ vp_finance = Agent(
     2. Analyzing key financial metrics such as revenue growth, profitability margins, liquidity ratios, and debt levels
     3. Assessing the company's historical financial performance and projecting future performance based on assumptions and market conditions
     4. Identifying any financial risks or red flags that could impact the acquisition decision
-    5. Providing a detailed report on your findings and recommendations to the Managing Director
+    5. Provide a detailed report on your findings and recommendations to the Managing Director
 
     Be sure to consider factors such as the sustainability of {company}' business model, the strength of its customer base, and its ability to generate consistent cash flows. Your analysis should be data-driven, objective, and aligned with Blackstone's investment criteria.
     """,
@@ -943,7 +943,7 @@ flow = f"""{chief_medical_officer.agent_name} -> {virologist.agent_name} -> {int
 # Create the swarm system
 diagnosis_system = AgentRearrange(
     name="Medical-nlp-diagnosis-swarm",
-    description="natural language symptions to diagnosis report",
+    description="natural language symptoms to diagnosis report",
     agents=agents,
     flow=flow,
     max_loops=1,
@@ -1387,7 +1387,7 @@ swarm.run(
     Link to the property: https://www.zillow.com/homedetails/1609-Meandering-Way-Dr-Roanoke-TX-76262/308879785_zpid/
     
     What's special
-    Unveiling a new custom estate in the prestigious gated Quail Hollow Estates! This impeccable residence, set on a sprawling acre surrounded by majestic trees, features a gourmet kitchen equipped with top-tier Subzero and Wolf appliances. European soft-close cabinets and drawers, paired with a double Cambria Quartzite island, perfect for family gatherings. The first-floor game room&media room add extra layers of entertainment. Step into the outdoor sanctuary, where a sparkling pool and spa, and sunken fire pit, beckon leisure. The lavish master suite features stunning marble accents, custom his&her closets, and a secure storm shelter.Throughout the home,indulge in the visual charm of designer lighting and wallpaper, elevating every space. The property is complete with a 6-car garage and a sports court, catering to the preferences of basketball or pickleball enthusiasts. This residence seamlessly combines luxury&recreational amenities, making it a must-see for the discerning buyer.
+    Unveiling a new custom estate in the prestigious gated Quail Hollow Estates! This impeccable residence, set on a sprawling acre surrounded by majestic trees, features a gourmet kitchen equipped with top-tier Subzero and Wolf appliances. European soft-close cabinets and drawers, paired with a double Cambria Quartzite island, perfect for family gatherings. The first-floor game room&media room add extra layers of entertainment. Step into the outdoor sanctuary, where a sparkling pool and spa, and sunken fire pit, beckon leisure. The lavish master suite features stunning marble accents, custom his&her closets, and a secure storm shelter. Throughout the home,indulge in the visual charm of designer lighting and wallpaper, elevating every space. The property is complete with a 6-car garage and a sports court, catering to the preferences of basketball or pickleball enthusiasts. This residence seamlessly combines luxury&recreational amenities, making it a must-see for the discerning buyer.
     
     Facts & features
     Interior
@@ -1983,7 +1983,7 @@ Documentation is located here at: [docs.swarms.world](https://docs.swarms.world)
 -----
 
 ## Folder Structure
-The swarms package has been meticlously crafted for extreme use-ability and understanding, the swarms package is split up into various modules such as `swarms.agents` that holds pre-built agents, `swarms.structs` that holds a vast array of structures like `Agent` and multi agent structures. The 3 most important are `structs`, `models`, and `agents`.
+The swarms package has been meticulously crafted for extreme use-ability and understanding, the swarms package is split up into various modules such as `swarms.agents` that holds pre-built agents, `swarms.structs` that holds a vast array of structures like `Agent` and multi agent structures. The 3 most important are `structs`, `models`, and `agents`.
 
 ```sh
 ├── __init__.py
